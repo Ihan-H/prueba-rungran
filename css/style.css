@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+:root{
+	--color-general:#888585;
+	--fondo-header:#4e4e4e;
+	--fondo-footer:#383737;
+	--color-titulo:#3c3838;
+	--color-azul:#41c1fe;
+	--fondo-gris:#f3f3f3;
+
+}
+
+body{
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	color: var(--color-general);
+	background: var(--fondo-gris);
+}
+
+
+h3{
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+header{
+	background-color: var(--fondo-header);
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	padding: 30px 0;
+}
+
+#hero{
+	background-image: url("../img/header_bg.jpg");
+	padding: 100px 0;
+}
+
+#hero h1{
+	color: #FFFFFF !important;
+}
+
+#welcome .bg-color{
+	padding: 40px 20px;
+}
+
+#welcome p{
+	font-size: 8px;
+}
+
+#gallery {
+	padding: 40px 0;
+}
+
+
+
+#history .ours{
+	padding: 80px 20px;
+}
+
+.asset{
+	font-family: "Oswald", sans-serif;
+	color: #D9D9D9;
+	text-transform: uppercase;
+	font-size: 80px !important;
+}
+
+.punto{
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	color: var(--color-titulo);
+	font-weight: 600;
+}
+
+.titulo{
+	font-family: "Oswald", sans-serif;
+	color: var(--color-titulo);
+	text-transform: uppercase;
+}
+
+.btn{
+	background-color: var(--color-azul);
+	border-width: 0;
+	font-family: "Oswald", sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	padding: 15px;
+	border-radius: 30px;
+	margin-top: 50px;
+}
+
+.bg-color {
+	background: #FFFFFF !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
